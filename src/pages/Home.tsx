@@ -11,9 +11,10 @@ const Home: FC = () => {
                 <button>Попробовать бесплатно <img src="./Vector.png" alt="" />
                 </button>
             </div>
-            
         </div>
-        <img src="./image15.png" alt="image" className={styles.image} />
+        <div className={styles.imageContainer}>
+          <img src="./image15.png" alt="image" className={styles.image}/>
+        </div>
     </div>
   )
 }
