@@ -85,6 +85,9 @@
         font-weight: 500;
         line-height: 28.8px;
         color: #FFFFFF;
+        &:hover {
+            cursor: pointer;
+        }
         @media (max-width: 1440px) {
             font-size: 15px;
             line-height: 24px;
